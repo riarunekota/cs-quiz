@@ -2,11 +2,39 @@
     "template": {
         "text": "問題文",
         "answer": "解答(選択肢の一つと全く同じもの)",
-        "choice": ["選択肢1", "選択肢2", "選択肢3", "選択肢4"]
+        "choice": ["選択肢1", "選択肢2", "選択肢3", "選択肢4"],
+        "picture": {
+            "needed": false,
+            "filename": ""
+        },
+        "page": 0,
+        "big-genre": 0,
+        "mid-genre": 0,
+        "sml-genre": "小ジャンル",
+        "question-no": 0,
+        "proposed": {
+            "year": 0,
+            "exam": "基本情報/第二種 など",
+            "question-no": 0
+        }
     },
     "quiz": [{
-        "text": "select '1'",
-        "answer": "1",
-        "choice": ["1", "2", "3", "4"]
+        "text": "主記憶に記憶されたプログラムを、CPUが順に読み出しながら実行する方式はどれか。",
+        "answer": "プログラム格納方式",
+        "choice": ["DMA制御方式", "アドレス指定方式", "仮想記憶方式", "プログラム格納方式"],
+        "picture": {
+            "needed": false,
+            "filename": ""
+        },
+        "page": 2,
+        "big-genre": 1,
+        "mid-genre": 1,
+        "sml-genre": "コンピュータの歴史／五大装置",
+        "question-no": 1,
+        "proposed": {
+            "year": 2014,
+            "exam": "基本情報",
+            "question-no": 9
+        }
     }]
 }
