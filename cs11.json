@@ -1,8 +1,8 @@
 {
-    "template": {
-        "text": "問題文",
-        "answer": "解答(選択肢の一つと全く同じもの)",
-        "choice": ["選択肢1", "選択肢2", "選択肢3", "選択肢4"],
+    "$schema": {
+        "text": "",
+        "answer": "",
+        "choice": ["", "", "", ""],
         "picture": {
             "needed": false,
             "filename": ""
@@ -10,11 +10,12 @@
         "page": 0,
         "big-genre": 0,
         "mid-genre": 0,
-        "sml-genre": "小ジャンル",
+        "sml-genre": "",
         "question-no": 0,
         "proposed": {
             "year": 0,
-            "exam": "基本情報/第二種 など",
+            "season": "春秋",
+            "exam": "基本情報",
             "question-no": 0
         }
     },
@@ -33,8 +34,285 @@
         "question-no": 1,
         "proposed": {
             "year": 2014,
+            "season": "春",
             "exam": "基本情報",
             "question-no": 9
+        }
+    }, {
+        "text": "コンピュータの構成要素のうち、命令を取り出し、解釈して、その命令が実行されるように他の装置へ動作指示するとともに、次に実行する命令のアドレスを決める機能を持つ装置はどれか。",
+        "answer": "制御装置",
+        "choice": ["演算装置", "記憶装置", "制御装置", "入出力装置"],
+        "picture": {
+            "needed": false,
+            "filename": ""
+        },
+        "page": 2,
+        "big-genre": 1,
+        "mid-genre": 1,
+        "sml-genre": "コンピュータの歴史／五大装置",
+        "question-no": 2,
+        "proposed": {
+            "year": 1998,
+            "season": "春",
+            "exam": "第二種",
+            "question-no": 21
+        }
+    }, {
+        "text": "コンピュータは、入力、記憶、演算、制御及び出力の五つの機能を実現する各装置から構成される。命令はどの装置から取り出されどの装置で解釈されるか。",
+        "answer": "取り出し:記憶 解釈:制御",
+        "choice": ["取り出し:演算 解釈:制御", "取り出し:記憶 解釈:制御", "取り出し:制御 解釈:演算", "取り出し:入力 解釈:演算"],
+        "picture": {
+            "needed": false,
+            "filename": ""
+        },
+        "page": 3,
+        "big-genre": 1,
+        "mid-genre": 1,
+        "sml-genre": "コンピュータの歴史／五大装置",
+        "question-no": 4,
+        "proposed": {
+            "year": 2006,
+            "season": "春",
+            "exam": "基本情報",
+            "question-no": 26
+        }
+    }, {
+        "text": "SoC(System on a Chip)の説明として、適切なものはどれか。",
+        "answer": "必要とされるすべての機能(システム)を同一プロセスで集積した半導体チップ",
+        "choice": [
+            "CPU、チップセット、ビデオチップ、メモリなどコンピュータを構成するための電子回路基板",
+            "CPU、メモリ、周辺装置などの間で発生するデータの受け渡しを管理する一連の回路群を搭載した半導体チップ",
+            "必要とされるすべての機能(システム)を同一プロセスで集積した半導体チップ",
+            "プロセスが異なる機能は、個別に最適化されたプロセスで製造し、パッケージ上でそれぞれのチップを適切に配線した半導体チップ"
+        ],
+        "picture": {
+            "needed": false,
+            "filename": ""
+        },
+        "page": 3,
+        "big-genre": 1,
+        "mid-genre": 1,
+        "sml-genre": "コンピュータの歴史／五大装置",
+        "question-no": 5,
+        "proposed": {
+            "year": 2009,
+            "season": "秋",
+            "exam": "基本情報",
+            "question-no": 23
+        }
+    }, {
+        "text": "シングルチップマイコンの特徴として、最も適切なものはどれか。",
+        "answer": "入出力機能が内蔵されている。",
+        "choice": [
+            "PCのメインCPUに適している。",
+            "ROMは内蔵されているが、RAMは内蔵されていない。",
+            "高速処理システム又は大規模なシステムに適している。",
+            "入出力機能が内蔵されている。"
+        ],
+        "picture": {
+            "needed": false,
+            "filename": ""
+        },
+        "page": 3,
+        "big-genre": 1,
+        "mid-genre": 1,
+        "sml-genre": "コンピュータの歴史／五大装置",
+        "question-no": 6,
+        "proposed": {
+            "year": 2009,
+            "season": "春",
+            "exam": "基本情報",
+            "question-no": 10
+        }
+    }, {
+        "text": "英字の大文字(A～Z)と数字(0～9)を同一のビット数で一位にコード化するには、少なくとも何ビット必要か。",
+        "answer": "6",
+        "choice": ["5", "6", "7", "8"],
+        "picture": {
+            "needed": false,
+            "filename": ""
+        },
+        "page": 4,
+        "big-genre": 1,
+        "mid-genre": 2,
+        "sml-genre": "データの表現",
+        "question-no": 1,
+        "proposed": {
+            "year": 2012,
+            "season": "秋",
+            "exam": "基本情報",
+            "question-no": 4
+        }
+    }, {
+        "text": "2種類の文字\"A\"、\"B\"を1個以上、最大n個並べた符合を作る。60通りの符号を作るときのnの最小値は幾らか。",
+        "answer": "6",
+        "choice": ["4", "5", "6", "7"],
+        "picture": {
+            "needed": false,
+            "filename": ""
+        },
+        "page": 4,
+        "big-genre": 1,
+        "mid-genre": 2,
+        "sml-genre": "データの表現",
+        "question-no": 2,
+        "proposed": {
+            "year": 2004,
+            "season": "春",
+            "exam": "基本情報",
+            "question-no": 10
+        }
+    }, {
+        "text": "32ビットで表現できるビットパターンの個数は24ビットで表現できる個数の何倍か。",
+        "answer": "256",
+        "choice": ["8", "16", "128", "256"],
+        "picture": {
+            "needed": false,
+            "filename": ""
+        },
+        "page": 4,
+        "big-genre": 1,
+        "mid-genre": 2,
+        "sml-genre": "データの表現",
+        "question-no": 3,
+        "proposed": {
+            "year": 2016,
+            "season": "秋",
+            "exam": "基本情報",
+            "question-no": 4
+        }
+    }, {
+        "text": "1秒間に一定間隔で16個のパルスを送ることができる通信路を使って、0～9、A～Fの16種類の文字を送るとき、1秒間に最大何文字を送ることができるか。ここで、1ビットは1個のパルスで表し、圧縮は行わないものとする。",
+        "answer": "4",
+        "choice": ["1", "2", "4", "8"],
+        "picture": {
+            "needed": false,
+            "filename": ""
+        },
+        "page": 4,
+        "big-genre": 1,
+        "mid-genre": 2,
+        "sml-genre": "データの表現",
+        "question-no": 4,
+        "proposed": {
+            "year": 2013,
+            "season": "春",
+            "exam": "基本情報",
+            "question-no": 2
+        }
+    }, {
+        "text": "10の整数乗倍を表す接頭語の記号G(ギガ)、k(キロ)、M(メガ)、T(テラ)の四つについて、その大小関係を正しく表しているものはどれか。",
+        "answer": "k < M < G < T",
+        "choice": ["G < k < M < T", "k < G < T < M", "k < M < G < T", "M < G < k < T"],
+        "picture": {
+            "needed": false,
+            "filename": ""
+        },
+        "page": 5,
+        "big-genre": 1,
+        "mid-genre": 2,
+        "sml-genre": "データの表現",
+        "question-no": 5,
+        "proposed": {
+            "year": 1994,
+            "season": "秋",
+            "exam": "第二種",
+            "question-no": 12.5
+        }
+    }, {
+        "text": "時間の単位として、ナノ(n)病、ピコ(p)秒、マイクロ(μ)秒、ミリ(m)秒などが用いられる。このn、p、μ、mは10、の整数乗倍を表す接頭語である。これらを小さい順に並べたものはどれか。",
+        "answer": "p,n,μ,m",
+        "choice": ["n,p,μ,m", "n,μ,p,m", "p,n,μ,m", "p,μ,n,m"],
+        "picture": {
+            "needed": false,
+            "filename": ""
+        },
+        "page": 5,
+        "big-genre": 1,
+        "mid-genre": 2,
+        "sml-genre": "データの表現",
+        "question-no": 6,
+        "proposed": {
+            "year": 1998,
+            "season": "秋",
+            "exam": "第二種",
+            "question-no": 4
+        }
+    }, {
+        "text": "1ピコ秒に等しい値はどれか。",
+        "answer": "1マイクロ秒の100万分の1",
+        "choice": ["1ナノ秒の1,000倍", "1マイクロ秒の100万分の1", "2のマイナス12乗秒", "10のマイナス10乗秒"],
+        "picture": {
+            "needed": false,
+            "filename": ""
+        },
+        "page": 5,
+        "big-genre": 1,
+        "mid-genre": 2,
+        "sml-genre": "データの表現",
+        "question-no": 7,
+        "proposed": {
+            "year": 1995,
+            "season": "春",
+            "exam": "第二種",
+            "question-no": 5.5
+        }
+    }, {
+        "text": "すべて同じ値を表している2進数、8進数、10進数、16進数の組み合わせはどれか。",
+        "answer": "2:1010 8:12 10:10 16:A",
+        "choice": ["2:111 8:10 10:8 16:8", "2:1010 8:12 10:10 16:A", "2:110 0100 8:256 10:100 16:64", "2:1111 1111 8:377 10:256 16:FF"],
+        "picture": {
+            "needed": false,
+            "filename": ""
+        },
+        "page": 6,
+        "big-genre": 1,
+        "mid-genre": 2,
+        "sml-genre": "基数と基数変換",
+        "question-no": 1,
+        "proposed": {
+            "year": 2000,
+            "season": "春",
+            "exam": "第二種",
+            "question-no": 3
+        }
+    }, {
+        "text": "1バイトのデータで0のビット数と1のビット数が等しいもののうち、符号なしの2進整数として見た時に最大になるものを、10進整数としてあらわしたものはどれか。",
+        "answer": "240",
+        "choice": ["120", "127", "170", "240"],
+        "picture": {
+            "needed": false,
+            "filename": ""
+        },
+        "page": 6,
+        "big-genre": 1,
+        "mid-genre": 2,
+        "sml-genre": "基数と基数変換",
+        "question-no": 2,
+        "proposed": {
+            "year": 2006,
+            "season": "秋",
+            "exam": "基本情報",
+            "question-no": 1
+        }
+    }, {
+        "text": "正の整数の10進表示の桁数Dと2進表示の桁数Bとの関係を表す式のうち、最も適切なものはどれか。",
+        "answer": "D≒Blog(10)2",
+        "choice": ["D≒2log(10)B", "D≒10log(2)B", "D≒Blog(2)10", "D≒Blog(10)2"],
+        "picture": {
+            "needed": false,
+            "filename": ""
+        },
+        "page": 6,
+        "big-genre": 1,
+        "mid-genre": 2,
+        "sml-genre": "基数と基数変換",
+        "question-no": 3,
+        "proposed": {
+            "year": 2007,
+            "season": "春",
+            "exam": "基本情報",
+            "question-no": 2
         }
     }]
 }
